@@ -5,6 +5,11 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import Hero from "./components/hero";
 import Client from "./components/ourClient";
 import ManageCommunity from "./components/manageCommunity";
+import UnseenSpending from "./components/unseenSpending";
+import LocalBusiness from "./components/localBusiness";
+import DesignYourSite from "./components/designYourSite";
+import MeetCustomers from "./components/meetCustomers";
+import Marketing from "./components/marketing";
 
 function App() {
   return (
@@ -13,6 +18,11 @@ function App() {
       <Hero />
       <Client />
       <ManageCommunity />
+      <UnseenSpending />
+      <LocalBusiness />
+      <DesignYourSite />
+      <MeetCustomers/>
+      <Marketing/>
     </>
   );
 }

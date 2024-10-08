@@ -13,17 +13,16 @@ const Client = () => {
       <Container maxWidth="lg" className="my-5">
         <Box className="text-center">
           <Typography variant="h4" className="fw-bold">
-            {"Our Clients"}
+            Our Clients
           </Typography>
           <Typography variant="h6" className="fs-6 text-secondary my-2">
-            {"We have been working with some Fortune 500+ clients"}
+            We have been working with some Fortune 500+ clients
           </Typography>
         </Box>
         <Box className="d-flex justify-content-between align-items-center mt-4">
           <img src={Logo1} alt="" />
           <img src={Logo2} alt="" />
           <img src={Logo3} alt="" />
-          <img src={Logo4} alt="" />
           <img src={Logo4} alt="" />
           <img src={Logo5} alt="" />
           <img src={Logo6} alt="" />

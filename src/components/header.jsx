@@ -5,48 +5,69 @@ import Toolbar from "@mui/material/Toolbar";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import { Link } from "@mui/material";
-import Logo from "../imgs/Logo.png"
-
+import Logo from "../imgs/Logo.png";
 
 const Header = () => {
-
   return (
     <>
       <AppBar position="static" sx={{ backgroundColor: "#F5F7FA" }}>
         <Container maxWidth="lg">
-          <Toolbar disableGutters className="d-flex align-items-center justify-content-between">
-           
-           <Box className="d-flex align-item-center">
-           <img src={Logo} alt="Logo" />
-           
-           </Box>
+          <Toolbar
+            disableGutters
+            className="d-flex align-items-center justify-content-between"
+          >
+            <Box className="d-flex align-item-center">
+              <img src={Logo} alt="Logo" />
+            </Box>
 
-            <Box sx={{ flexGrow: 0, }}>
-
-              <Link href="#" className="text-black fw-normal mx-3" underline="none">
-                {'Home'}
+            <Box sx={{ flexGrow: 0 }}>
+              <Link
+                href="#"
+                className="text-black fw-normal mx-3"
+                underline="none"
+              >
+                {"Home"}
               </Link>
 
-              <Link href="#" className="text-black fw-normal mx-3" underline="none">
-                {'Service'}
+              <Link
+                href="#"
+                className="text-black fw-normal mx-3"
+                underline="none"
+              >
+                {"Service"}
               </Link>
 
-              <Link href="#" className="text-black fw-normal mx-3" underline="none">
-                {'Feature'}
+              <Link
+                href="#"
+                className="text-black fw-normal mx-3"
+                underline="none"
+              >
+                {"Feature"}
               </Link>
 
-              <Link href="#" className="text-black fw-normal mx-3" underline="none">
-                {'Product'}
+              <Link
+                href="#"
+                className="text-black fw-normal mx-3"
+                underline="none"
+              >
+                {"Product"}
               </Link>
 
-              <Link href="#" className="text-black fw-normal mx-3"  underline="none">
-                {'Testimonial'}
+              <Link
+                href="#"
+                className="text-black fw-normal mx-3"
+                underline="none"
+              >
+                {"Testimonial"}
               </Link>
 
-              <Link href="#" className="text-black fw-normal mx-3" underline="none">
-                {'FAQ'}
+              <Link
+                href="#"
+                className="text-black fw-normal mx-3"
+                underline="none"
+              >
+                {"FAQ"}
               </Link>
-
             </Box>
 
             <Box sx={{ flexGrow: 0 }}>
@@ -57,7 +78,11 @@ const Header = () => {
               >
                 Login
               </Button>
-              <Button variant="contained" className="text-capitalize py-2 px-4" sx={{ backgroundColor: "#4CAF4F" }}>
+              <Button
+                variant="contained"
+                className="text-capitalize py-2 px-4"
+                sx={{ backgroundColor: "#4CAF4F" }}
+              >
                 Sign up
               </Button>
             </Box>
