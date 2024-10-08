@@ -10,6 +10,7 @@ import LocalBusiness from "./components/localBusiness";
 import DesignYourSite from "./components/designYourSite";
 import MeetCustomers from "./components/meetCustomers";
 import Marketing from "./components/marketing";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
       <UnseenSpending />
       <LocalBusiness />
       <DesignYourSite />
-      <MeetCustomers/>
-      <Marketing/>
+      <MeetCustomers />
+      <Marketing />
+      <Footer />
     </>
   );
 }
